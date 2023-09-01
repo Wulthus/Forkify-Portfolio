@@ -14,10 +14,6 @@ import nutritionView from './views/nutritionView.js';
 import { MESSAGE_DISPLAY_LENGTH_MILISECONDS } from './config.js';
 import shopingListView from './views/shopingListView.js';
 
-const newFeature = function(){
-  console.log('New feature!!!')
-}, ();
-
 if(module.hot){
   module.hot.accept
 ;}
