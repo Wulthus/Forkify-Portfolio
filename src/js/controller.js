@@ -98,6 +98,7 @@ const init = function(){
   recipeView.addHandlerGetNutrition(controlGetNutrition);
   model.loadBookmarks();
   model.loadList();
+  console.log('Operational')
 };
 
 const controlAddIngredientList = function(quantity, unit, description){
